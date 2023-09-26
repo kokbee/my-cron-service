@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "target": "es2022",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "strictNullChecks": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@enum/*": [
+        "./shared/enum/*"
+      ],
+      "@interface/*": [
+        "./shared/interface/*"
+      ],
+      "@modules/*": [
+        "./modules/*"
+      ],
+      "@shared/*": [
+        "./shared/*"
+      ]
+    }
+  }
+}
