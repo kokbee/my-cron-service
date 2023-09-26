@@ -4,6 +4,6 @@ import { CronService } from './cron.service'
 
 @Module({
   imports: [ScheduleModule.forRoot()],
-  providers: [CronService]
+  providers: [CronService],
 })
 export class CronModule {}
